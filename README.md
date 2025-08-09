@@ -67,3 +67,57 @@ export default tseslint.config([
   },
 ])
 ```
+
+## Versiones específicas requeridas
+
+- Node.js versión mínima recomendada: **v22.14.0**  
+- Vite versión: **7.0.6**  
+- @vitejs/plugin-react versión mínima recomendada: **4.7.0**  
+- vite-plugin-pwa versión: **1.0.2**
+
+Puedes verificar tu versión de Node.js con:
+
+```bash
+node -v
+```
+
+## Instalación y ejecución paso a paso
+
+Después de clonar el repositorio, sigue estos pasos para ejecutar el proyecto:
+
+1. Abre una terminal y navega a la carpeta del proyecto:
+
+   ```bash
+   cd takin-shop-web
+   ```
+
+2. Instala las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+3. Ejecuta el servidor de desarrollo:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Abre tu navegador y visita la URL que indique la terminal (por defecto suele ser `http://localhost:5173`).
+
+5. ¡Listo! Ahora puedes empezar a desarrollar con React, TypeScript y Vite.
+
+## Notas adicionales
+
+- Para proyectos modernos con React y TypeScript, configurar ESLint con reglas que analicen tipos es altamente recomendable para mayor robustez y calidad en el código.
+
+- Puedes elegir entre `@vitejs/plugin-react` (Babel) o `@vitejs/plugin-react-swc` (SWC) para Fast Refresh.
+
+- Asegúrate de usar Node.js versión **v22.14.0** o superior.
+
+- Vite está en la versión **7.0.6**.
+
+- El plugin oficial React recomendado es **@vitejs/plugin-react 4.7.0**.
+
+- Se usa `vite-plugin-pwa` en la versión **1.0.2**.
+
